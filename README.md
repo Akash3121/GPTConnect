@@ -27,30 +27,33 @@ cd gpt3-chatbot
 
 Install the OpenAI Python package using pip:
 
-
+```
 pip install openai
-Set up your OpenAI API key:
+```
+3. Set up your OpenAI API key:
 
 Replace "SECRET_KEY" in the openai.api_key assignment with your actual OpenAI API key.
 
-python
-Copy code
+```
 openai.api_key = "YOUR_OPENAI_API_KEY"
-Usage
-Run the chatbot:
+```
+
+# Usage
+1. Run the chatbot:
 
 Simply run the script in your terminal:
 
-bash
-Copy code
+```
 python chat.py
-Interact with the chatbot:
+```
+
+2. Interact with the chatbot:
 
 Type your message and press Enter. The chatbot will respond based on the GPT-3.5 Turbo model. To exit, type any of the following: bye, break, exit, or quit.
 
-Example
-bash
-Copy code
+# Example
+
+```
 You: Hello, how are you?
 Chatbot: I'm just a bunch of code, but I'm here to help! How can I assist you today?
 
@@ -58,3 +61,4 @@ You: Tell me a joke.
 Chatbot: Why don't programmers like nature? It has too many bugs.
 
 You: quit
+```
